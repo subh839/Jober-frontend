@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 
 const Payment = () => {
 	const [book, setBook] = useState({
-		price: 500,
+		price: 250,
 	});
     
 	const initPayment = (data) => {
