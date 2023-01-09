@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../../Navbar/Navbar";
-
+import "./Payment.css";
 import { useDispatch } from "react-redux";
 import Razorpay from 'razorpay';
 import axios from "axios";
@@ -57,8 +57,7 @@ const Payment = () => {
       <br />
    
       <br />
-      <div className="book_container" style={{"textAlign":"center","height":"50px","width":"500px","marginTop":"200px","marginLeft":"550px"}}>
-      <h2>Pay @250 To Register</h2>
+      <div className="book_container" >
               <br/><br/>  <Button style={{"textAlign":"center","height":"50px","width":"150px"}} onClick={handlePayment} variant="primary">Proceed To Pay</Button>{' '}
 			</div>
     </>

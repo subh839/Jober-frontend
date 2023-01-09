@@ -1,0 +1,19 @@
+@media screen and (max-width: 868px) {
+    .book_container {
+      display: block;
+      padding: 10px 20px;
+      text-align: center;
+     margin-top:200px;
+     margin-left:550px;
+    }
+  }
+
+  @media screen and (max-width: 568px) {
+    .book_container {
+      display: block;
+      padding: 10px 20px;
+      text-align: center;
+     margin-top:200px;
+     margin-left:250px;
+    }
+  }
